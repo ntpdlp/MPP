@@ -24,8 +24,6 @@ public class AddBookWindow extends Stage implements LibWindow{
 	@FXML
 	private TextField txtCopies;
 	@FXML
-	private Button btnBackMain;
-	@FXML
 	private Button btnAdd;
 	@FXML
 	private Button btnCancel;
@@ -48,5 +46,7 @@ public class AddBookWindow extends Stage implements LibWindow{
 		// TODO Auto-generated method stub
 		
 	}
+	
+	
 
 }

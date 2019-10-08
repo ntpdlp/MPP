@@ -1,16 +1,14 @@
 package ui;
 
-import java.io.Serializable;
-import javafx.fxml.*;
+import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
-public class AddNewLibMemberWindow extends Stage implements LibWindow{
+public class AddAuthorWindow extends Stage implements LibWindow{
 	//fields
-	@FXML
-	private ComboBox<String> cboType;
 	@FXML
 	private TextField txtFirstName;
 	@FXML
@@ -26,11 +24,15 @@ public class AddNewLibMemberWindow extends Stage implements LibWindow{
 	@FXML
 	private TextField txtZip;
 	@FXML
+	private ComboBox<String> cboCredential;
+	@FXML
+	private TextArea txaBio;
+	@FXML
 	private Button btnAdd;
 	@FXML
 	private Button btnCancel;
 
-	//
+	
 	
 	@Override
 	public void init() {
@@ -49,5 +51,6 @@ public class AddNewLibMemberWindow extends Stage implements LibWindow{
 		// TODO Auto-generated method stub
 		
 	}
+
 
 }
