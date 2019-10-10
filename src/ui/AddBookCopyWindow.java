@@ -33,7 +33,6 @@ public class AddBookCopyWindow extends Stage implements LibWindow{
 	
 	//variable
 	public static final AddBookCopyWindow INSTANCE = new AddBookCopyWindow();
-
 	private boolean isInitialized = false;
 	private String bookId;
 	private int copiedNums; 

@@ -13,6 +13,7 @@
             <Font size="20.0" />
          </font>
       </Label>
+      
       <Label layoutX="52.0" layoutY="81.0" text="Book" />
       <Label layoutX="50.0" layoutY="129.0" text="Copied Number " />
       <TextField fx:id="txtCopiedNum" layoutX="211.0" layoutY="124.0" />
