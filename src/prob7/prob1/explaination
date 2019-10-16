@@ -1,0 +1,3 @@
+Part B: fail , because equals() was not override in Employee class
+Part C: fail , because missing hashCode() in Employee class for using in 'equals'
+Part D: fail, the Employee was not immutable class because it is used as the Key
